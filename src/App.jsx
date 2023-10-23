@@ -1,13 +1,7 @@
 //React Imports
-import { useState } from 'react'
+
 
 //React Router Imports
-// import {
-//   createBrowserRouter,
-//   createRoutesFromElements,
-//   Route,
-//   Outlet,
-// } from 'react-router-dom';
 import { 
   BrowserRouter as Router,
    Route,
@@ -18,6 +12,7 @@ import {
 
 //Style Imports
 import './App.css'
+import './index.css'
 
 //Page Imports
 import Home from './pages/Home'
@@ -30,24 +25,11 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 
 
-// function App() {
-
-//   return (
-//     <>
-
-//       <h1 className="text-cyan-400  text-3xl font-bold underline">
-//         Hello world!
-//       </h1>
-
-//     </>
-//   )
-// }
-
 function PageLayout() {
   return (
     <div>
       <Nav />
-       <Outlet/>
+        <Outlet/>
       <Footer />
     </div>
   );
