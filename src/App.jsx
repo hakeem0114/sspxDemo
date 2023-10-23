@@ -6,7 +6,7 @@ import {
   BrowserRouter as Router,
    Route,
     Routes,
-     Outlet 
+     Outlet,
 } from 'react-router-dom';
 
 
@@ -23,6 +23,7 @@ import Contact from './pages/Contact'
 //Component Imports 
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import Product from './components/Product';
 
 
 function PageLayout() {
@@ -44,9 +45,10 @@ function App() {
           element={<PageLayout />}
         >
           <Route index element={<Home />} />
-          <Route path="/current-needs" element={<CurrentNeeds />} />
+          <Route path="/currentneeds" element={<CurrentNeeds />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/product/:id" element={<Product />} />
         </Route>
       </Routes>
     </Router>

@@ -5,7 +5,7 @@ export default function Footer (){
 
   return (
     <div className=' 
-    w-full h-44  border-t-[2px] border-b-gray-800 opacity-95 flex flex-col justify-between sticky z-50 top-0 text-gray-700  '>
+    bg-white w-full h-44 border-t-2 pt-5 mb-10 border-t-slate-500 opacity-95 flex flex-col justify-between sticky z-50 top-0 text-gray-700  '>
     
       {/* Top Footer */}
       <div className=' h-40 w-full flex justify-center items-center mx-auto '>

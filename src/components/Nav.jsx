@@ -17,13 +17,14 @@ export default function Nav() {
 
   return (
     <div className=' 
-    w-full h-40 mt-5 border-b-[2px] border-b-gray-800 opacity-95 flex flex-col justify-between sticky z-50 top-0 text-gray-500  '>
-      <div className=' h-20 w-full flex justify-between items-center mx-auto '>
-        <div className='flex ml-9'>
-          <img src="https://sspx.gifts/cdn/shop/files/website-logo_720x.png?v=1614723367" alt="Donate: sspx.ca" />
+    w-full bg-white h-40 mt-5 border-b-[2px] border-b-gray-800 opacity-95 flex flex-col justify-between sticky z-50 top-0 text-gray-500  '>
+      
+      <div className=' h-20  w-full flex justify-evenly items-center  gap-32 '>
+        <div className='flex'>
+          <img className='w-2/3' src="https://sspx.gifts/cdn/shop/files/website-logo_720x.png?v=1614723367" alt="Donate: sspx.ca" />
         </div>
 
-        <div className='flex mr-9'>
+        <div className='flex'>
           <div className='font-semibold text-black transform transition duration-300 hover:scale-110 hover:cursor-pointer '>
              Sign In
           </div>
