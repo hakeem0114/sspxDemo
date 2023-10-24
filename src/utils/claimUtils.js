@@ -1,4 +1,5 @@
 //Claims are key/value-pairs attached to the user object after auth in Azure b2c
+//From MSAL docs
 
 /**
  * Populate claims table with appropriate description
