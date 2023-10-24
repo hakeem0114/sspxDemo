@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 //Azure Imports
 import { AuthenticatedTemplate, UnauthenticatedTemplate, useMsal } from '@azure/msal-react';
-import { InteractionStatus } from "@azure/msal-browser"; 
-import { loginRequest, b2cPolicies } from '../authConfig';
+// import { InteractionStatus } from "@azure/msal-browser"; 
+// import { loginRequest, b2cPolicies } from '../authConfig';
 
 //React Icons Imports
 import { IoIosContact } from 'react-icons/io';
@@ -32,11 +32,22 @@ export default function Nav() {
     }
 
     const handleLoginRedirect = () => {
-        instance.loginRedirect(loginRequest).catch((error) => console.log(error));
+        // instance.loginRedirect(loginRequest).catch((error) => console.log(error));
+        try{
+          instance.loginRedirect()
+        }
+        catch(err){
+          console.log(err)
+        }
     };
 
     const handleLogoutRedirect = () => {
+      try{
         instance.logoutRedirect();
+      }
+      catch(err){
+        console.log(err)
+      }
     };
 
 

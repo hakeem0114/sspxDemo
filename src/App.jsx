@@ -30,9 +30,9 @@ import Product from './components/Product';
 import { MsalProvider, useMsal } from '@azure/msal-react';
   //Protected Routes (future use)
   //https://github.com/Azure-Samples/ms-identity-javascript-react-tutorial/tree/main/3-Authorization-II/2-call-api-b2c
-    import { b2cPolicies, protectedResources } from './authConfig';
-    import { compareIssuingPolicy } from './utils/claimUtils';
-    import { EventType } from '@azure/msal-browser';
+    // import { b2cPolicies, protectedResources } from './authConfig';
+    // import { compareIssuingPolicy } from './utils/claimUtils';
+    // import { EventType } from '@azure/msal-browser';
 
 
 function PageLayout() {

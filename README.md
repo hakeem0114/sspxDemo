@@ -14,7 +14,3 @@
 ## Improvements
 ### React Router
 As more pages are added, better navigation 
-
-
-# SSPX Commercial Site Demo (Back-End)
-Will add link to later to another repo
