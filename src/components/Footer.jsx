@@ -8,34 +8,34 @@ export default function Footer (){
     bg-white w-full h-44 border-t-2 pt-5 mb-10 border-t-slate-500 opacity-95 flex flex-col justify-between sticky z-50 top-0 text-gray-700  '>
     
       {/* Top Footer */}
-      <div className=' h-40 w-full flex justify-center items-center mx-auto '>
-          <ul className="flex flex-row gap  gap-20">
+      <div className=' w-full flex justify-center items-center mx-auto '>
+          <ul className=" text-lg flex flex-col gap-10 md:text-base md:flex-row md:gap-5 lg:gap-20 ">
               
               <li className='text-gray-950 font-semibold'>
                 About
-                <ul>
-                    <Link to='#'>
-                        <li className=' mt-5 font-normal transform transition duration-300 hover:scale-105 hover:text-gray-950 hover:cursor-pointer'
-                        >Mission</li>
-                    </Link>
-                    <Link to='#'>
-                        <li className='font-normal transform transition duration-300 hover:scale-105 hover:text-gray-950 hover:cursor-pointer'
-                        >History</li>
-                    </Link>
-                    <Link to='#'>
-                        <li className='font-normal transform transition duration-300 hover:scale-105 hover:text-gray-950 hover:cursor-pointer'
-                        >Founder</li>
-                    </Link>
-                    <Link to='#'>
-                        <li className='font-normal transform transition duration-300 hover:scale-105 hover:text-gray-950 hover:cursor-pointer'
-                        >Organization</li>
-                    </Link>
-                    <Link to='#'>
-                        <li className='font-normal transform transition duration-300 hover:scale-105 hover:text-gray-950 hover:cursor-pointer'
-                        >Key Concerns</li>
-                    </Link>
+                    <ul>
+                        <Link to='#'>
+                            <li className=' mt-5 font-normal transform transition duration-300 hover:scale-105 hover:text-gray-950 hover:cursor-pointer'
+                            >Mission</li>
+                        </Link>
+                        <Link to='#'>
+                            <li className='font-normal transform transition duration-300 hover:scale-105 hover:text-gray-950 hover:cursor-pointer'
+                            >History</li>
+                        </Link>
+                        <Link to='#'>
+                            <li className='font-normal transform transition duration-300 hover:scale-105 hover:text-gray-950 hover:cursor-pointer'
+                            >Founder</li>
+                        </Link>
+                        <Link to='#'>
+                            <li className='font-normal transform transition duration-300 hover:scale-105 hover:text-gray-950 hover:cursor-pointer'
+                            >Organization</li>
+                        </Link>
+                        <Link to='#'>
+                            <li className='font-normal transform transition duration-300 hover:scale-105 hover:text-gray-950 hover:cursor-pointer'
+                            >Key Concerns</li>
+                        </Link>
 
-                </ul>
+                    </ul>
               </li>
 
               <li className='text-gray-950 font-semibold'>
