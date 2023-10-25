@@ -28,6 +28,8 @@ export default function Nav() {
         
         if(activeAccount){
           // console.log("activeAccount:"+activeAccount)
+          // console.log(activeAccount)
+          // console.log(activeAccount.idTokenClaims)
           // console.log("name:"+activeAccount.idTokenClaims.given_name)
           userName = activeAccount.idTokenClaims.given_name
         }else{

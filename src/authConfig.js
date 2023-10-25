@@ -10,16 +10,16 @@ export const b2cPolicies = {
     },
     authorities: {
         signUpSignIn: {
-            authority: 'https://azuredemo44.b2clogin.com/azuredemo44.onmicrosoft.com/B2C_1_signupsignin1',
-        }, /****CHANGE AFTER CLONING****/
+            authority: 'https://sspxCAN.b2clogin.com/sspxCAN.onmicrosoft.com/B2C_1_signupsignin1',
+        }, /****CHANGE NAME OF B2C TENANT (Domain name) AFTER CLONING****/
         forgotPassword: {
-            authority: 'https://azuredemo44.b2clogin.com/azuredemo44.onmicrosoft.com/B2C_1_reset_v3',
+            authority: 'https://sspxCAN.b2clogin.com/sspxCAN.onmicrosoft.com/B2C_1_reset_v3',
         }, /****CHANGE AFTER CLONING****/
         // editProfile: {
-        //     authority: 'https://azuredemo44.b2clogin.com/azuredemo44.onmicrosoft.com/B2C_1_edit_profile_v2',
+        //     authority: 'https://sspxCAN.b2clogin.com/sspxCAN.onmicrosoft.com/B2C_1_edit_profile_v2',
         // }, 
     },
-    authorityDomain: 'azuredemo44.b2clogin.com', /****CHANGE AFTER CLONING****/
+    authorityDomain: 'sspxCAN.b2clogin.com', /****CHANGE AFTER CLONING****/
 };
 
 
@@ -81,8 +81,8 @@ export const msalConfig = {
 //     apiTodoList: {
 //         endpoint: 'http://localhost:5000/api/todolist',
 //         scopes: {
-//             read: ['https://azuredemo44.onmicrosoft.com/82465294-cd5d-44de-8f21-eb8b7984a4cb/ToDoList.Read'],
-//             write: ['https://azuredemo44.onmicrosoft.com/82465294-cd5d-44de-8f21-eb8b7984a4cb/ToDoList.ReadWrite'],
+//             read: ['https://sspxCAN.onmicrosoft.com/82465294-cd5d-44de-8f21-eb8b7984a4cb/ToDoList.Read'],
+//             write: ['https://sspxCAN.onmicrosoft.com/82465294-cd5d-44de-8f21-eb8b7984a4cb/ToDoList.ReadWrite'],
 //         },
 //     },
 // };
