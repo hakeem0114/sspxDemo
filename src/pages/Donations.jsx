@@ -19,7 +19,7 @@ export default function Donations (){
           Our Apostolates
         </div>
 
-        <div className="grid justify-self-center self-center grid-cols-3 gap-5 ">
+        <div className="grid justify-self-center self-center grid-cols-1 md:grid-cols-3 gap-5 ">
           {
             apostolatesData.map(apostolate => (
               <Link to={`/product/${apostolate.id}`} key={apostolate.id}>
