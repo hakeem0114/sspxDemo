@@ -1,4 +1,4 @@
-# SSPX Commercial Site Demo (Front-End)
+# SSPX Commercial Site Demo
 1. Overview
 2. Prerequisites
 3. Packages Used
@@ -14,7 +14,6 @@
 ## Improvements
 1. Familiarize myself with Azure Deployment environments
 2. Using localhost for changes is fine but there are some production issues you might run into
-
 3. Create a staging environment in Azure & Github so that an Admin (me) or team member 
 can review & approve before pushing to production.
 
